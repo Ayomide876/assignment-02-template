@@ -157,7 +157,7 @@ export function findMultiples(arrayOfNumbers, factor) {
 export function calculateFactorials(arrayOfNumbers) {
     console.log(arrayOfNumbers)
     const result = []
-    for (const number in arrayOfNumbers) {
+    for (const number of arrayOfNumbers) {
         if (number < 0) {
             result.push(0)
         }
